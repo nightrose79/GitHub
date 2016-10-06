@@ -1,0 +1,11 @@
+keys = ["Provider.Name", "Provider.Zip.Code", "pct", "DRG.text", "Average.Total.Payments", "total_mean", "Total.Discharges"]
+values = [
+    ["ACME HOSPITAL"] * 30,
+    [11222] * 30,
+    [100.00] * 30,
+    ["DRG PROCEDURE"] * 30,
+    [10000] * 30,
+    [1000] * 30,
+    [10] * 30
+]
+dict(zip(keys, values))

@@ -1,0 +1,8 @@
+keys = ["Provider.Name", "Provider.State", "Codes", "Discharges"]
+values = [
+    ["ACME HOSPITAL"]*100,
+    ["AL"]*100,
+    [100]*100,
+    [1000]*100
+]
+dict(zip(keys, values))

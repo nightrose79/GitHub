@@ -1,0 +1,3 @@
+keys = ["DRG.code", "DRG.text", "Coef_of_variation", "DRG_cost_avg", "N"]
+values = [ [1]*100, ["DRG"]*100, [1.00]*100, [10]*100 ]
+dict(zip(keys, values))

@@ -1,0 +1,7 @@
+keys = ["DRG.code", "DRG.text", "Adj.R.Squared"]
+values = [
+    [1]*50,
+    ["DRG"]*50,
+    [0.11]*50
+]
+dict(zip(keys, values))
